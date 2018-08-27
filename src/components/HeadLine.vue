@@ -1,5 +1,5 @@
 <template>
-  <div class="headLine">
+  <div class="jumbotron headLine">
     <h1>Pain Tracker</h1>
   </div>
 </template>

@@ -1,5 +1,9 @@
 <template>
-  <table class="painTable">
+  <table class="table table-striped painTable">
+    <tr>
+      <th>Pain Level</th>
+      <th>Date</th>
+    </tr>
     <tr v-for="(painLevel, index) in painLevels" :key="index">
       <td>{{ painLevel.painLevel }}</td>
       <td>{{ painLevel.date }}</td>
@@ -28,5 +32,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 </style>
