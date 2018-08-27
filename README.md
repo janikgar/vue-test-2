@@ -1,6 +1,6 @@
 # vue-test-2
 
-> A Vue.js project
+> A basic sandbox Vue.js project
 
 ## Build Setup
 
