@@ -1,22 +1,27 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <HeadLine />
+    <PainTable />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import PainTable from './components/PainTable'
+import HeadLine from './components/HeadLine'
+// import PainTable from './components/PainTable'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeadLine,
+    PainTable
   }
 }
 </script>
 
 <style>
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-vue/dist/bootstrap-vue.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
